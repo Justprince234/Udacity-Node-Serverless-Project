@@ -1,6 +1,6 @@
-org: newthingade
-app: serverless
-service: serverless
+org: truthpej
+app: udagram-node-serverless
+service: udagram-node-serverless
 
 plugins:
   - serverless-webpack
@@ -12,7 +12,7 @@ provider:
   name: aws
   runtime: nodejs12.x
   stage: ${opt:stage, 'dev'}
-  region: ${opt:region, 'us-east-2'}
+  region: ${opt:region, 'us-east-1'}
   
 #  X-Ray Tracing
   tracing: 
@@ -20,9 +20,9 @@ provider:
     apiGateway: true
 
   environment:
-    PROJECT_NAME: udacity
-    TODOS_TABLE: udacity-serverless-application-todo-${self:provider.stage}
-    S3_BUCKET_NAME: udacity-serverless-application-todo-${self:provider.stage}
+    PROJECT_NAME: udagram-node-serverless
+    TODOS_TABLE: udagram-node-serverless-${self:provider.stage}
+    S3_BUCKET_NAME: udagram-node-serverless-${self:provider.stage}
 
 custom:
   documentation:
