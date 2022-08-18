@@ -23,8 +23,6 @@ For internet-scale applications, it is a fully managed, multiregion, multimaster
 
 ## Amazon S3
 
-![s3](https://user-images.githubusercontent.com/80678596/177031215-0ad4013e-4111-4f29-a4e4-d916a9b8eec0.png)
-
 Amazon Simple Storage Service is a cloud-based object storage service with industry-leading scalability, data availability, security, and performance. Amazon S3 is a simple web service interface that allows you to store and retrieve any amount of data from anywhere on the internet.
 
 Customers of all sizes and industries can use it to store and protect any amount of data for a variety of use cases, including websites, mobile apps, backup and restore, archiving, enterprise applications, IoT devices, and big data analytics.
